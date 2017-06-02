@@ -1,0 +1,50 @@
+header {
+  text-align:center;
+  padding: 5%;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  font-size: 3.0em;
+
+}
+
+h2 {
+  font-family: 'VT323', monospace;
+
+}
+
+h3 {
+  font-family: 'VT323', monospace;
+}
+
+p {
+  text-align:center;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+ul {
+ list-style: none;
+}
+
+
+
+
+
+
+.intro {
+  text-align:center;
+}
+
+.contact {
+  text-align:center;
+}
+
+.writing {
+  text-align:center;
+}
+
+.projects {
+  text-align:center;
+}
