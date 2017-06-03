@@ -1375,8 +1375,8 @@ h6 {
 
 a {
   line-height: inherit;
-  color: #1779ba;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
   cursor: pointer; }
   a:hover, a:focus {
     color: #1468a0; }
