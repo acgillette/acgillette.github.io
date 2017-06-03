@@ -3,6 +3,11 @@ header {
   padding: 5%;
 }
 
+header a {
+  color: inherit;
+  padding: 1%;
+}
+
 h1 {
   font-family: 'VT323', monospace;
   font-size: 3.0em;
@@ -38,6 +43,10 @@ ul {
 }
 
 .contact {
+  text-align:center;
+}
+
+.skills {
   text-align:center;
 }
 
