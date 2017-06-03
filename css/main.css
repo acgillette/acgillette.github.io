@@ -8,9 +8,13 @@ header a {
   padding: 1%;
 }
 
+header a:hover {
+  color:black;
+}
+
 h1 {
   font-family: 'VT323', monospace;
-  font-size: 3.0em;
+  font-size: 4.0em;
 
 }
 
@@ -21,6 +25,11 @@ h2 {
 
 h3 {
   font-family: 'VT323', monospace;
+}
+
+h3 a {
+  text-decoration:none;
+  color:inherit;
 }
 
 p {
