@@ -55,6 +55,10 @@ ul {
   text-align:center;
 }
 
+.projects h1 {
+  display:inline;
+}
+
 .project h3 {
   display:inline;
 }
