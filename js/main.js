@@ -4,8 +4,15 @@ var setHeaderColor = function() {
   $(".name").css("color", pastel);
 };
 
+var setBackground = function() {
+  var hue = Math.floor(Math.random() * 360);
+  var pastel = 'hsl(' + hue + ', 100%, 87.5%)';
+  return pastel;
+};
+
 $(document).ready(function(){
   setInterval(setHeaderColor, 1000);
+
 
   $(".title").hover(function() {
     $(this).prev().addClass("fa-spin");
