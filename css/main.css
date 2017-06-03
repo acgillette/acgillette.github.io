@@ -54,3 +54,15 @@ ul {
 .projects {
   text-align:center;
 }
+
+.project h3 {
+  display:inline;
+}
+
+.project i {
+  margin-left: 1%;
+}
+
+.writing h3 {
+  display:inline;
+}
