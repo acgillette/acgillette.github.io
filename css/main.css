@@ -1,3 +1,5 @@
+
+
 header {
   text-align:center;
   padding: 5%;
@@ -12,10 +14,15 @@ header a:hover {
   color:black;
 }
 
+
 h1 {
   font-family: 'VT323', monospace;
-  font-size: 4.0em;
+  font-size: 3.0em;
 
+}
+
+header h1 {
+  font-size: 5.0em;
 }
 
 h2 {
