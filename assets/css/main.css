@@ -75,10 +75,37 @@ ul {
   display:inline;
 }
 
+.project {
+  border-style:solid;
+  height: 300px;
+  width: 300px;
+  border-width: 1px;
+  padding: 2%;
+  margin: 2%;
+}
+
 .project i {
   margin-left: 1%;
 }
 
 .writing h3 {
   display:inline;
+}
+
+.post {
+  text-align: center;
+  text-decoration: none;
+}
+
+.blog-post {
+  padding: 2%;
+}
+
+.blog-post h1, h2, h3, h4 {
+  text-align: center;
+}
+
+
+.post-title {
+  text-align: center;
 }
