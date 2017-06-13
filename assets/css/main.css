@@ -61,10 +61,10 @@ ul {
   /*text-align:center;*/
 }
 
-.projects h1 {
-  display:inline;
+
+/*.projects h1 {
   text-align:center;
-}
+}*/
 
 .project h3 {
   display:inline;
@@ -86,6 +86,10 @@ ul {
 
 .writing h3 {
   display:inline;
+}
+
+.section-header {
+  text-align:center;
 }
 
 .post {
