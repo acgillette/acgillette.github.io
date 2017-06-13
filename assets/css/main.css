@@ -36,7 +36,6 @@ h3 {
 
 
 p {
-  text-align:center;
   font-family: 'Work Sans', sans-serif;
 
 }
@@ -49,30 +48,27 @@ ul {
 
 
 
-
-.intro {
+#contact {
   text-align:center;
 }
 
-
-.skills {
-  text-align:center;
-}
 
 .writing {
   text-align:center;
 }
 
 .projects {
-  text-align:center;
+  /*text-align:center;*/
 }
 
 .projects h1 {
   display:inline;
+  text-align:center;
 }
 
 .project h3 {
   display:inline;
+  text-align:center;
 }
 
 .project {
@@ -93,7 +89,6 @@ ul {
 }
 
 .post {
-  text-align: center;
   text-decoration: none;
 }
 
