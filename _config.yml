@@ -1,2 +1,3 @@
 name: AC Gillette
 markdown: kramdown
+exclude: ['node_modules']
