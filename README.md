@@ -1,9 +1,10 @@
 # acgillette.github.io
 
-My personal resume/portfolio site
+:dizzy: My personal resume/portfolio site :dizzy:
 
-##Site To Do
+## Site To Do
+* Re-format site layout 
+* Add unique projects page 
+* Integrate React into website 
 
-* Add JQuery to make stars spin when someone hovers over the h1
-* Add a blog using Jekyll?
-* Add a resume page
+
