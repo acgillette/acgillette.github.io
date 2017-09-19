@@ -7,4 +7,3 @@
 * Add unique projects page 
 * Integrate React into website 
 
-
