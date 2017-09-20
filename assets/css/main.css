@@ -42,6 +42,26 @@ p {
 
 ul {
  list-style: none;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav {
+
+}
+
+.nav li {
+  padding: 5px;
+  text-align: center;
+  display: inline;
+  
+}
+
+.nav a {
+  color: black;
 }
 
 
