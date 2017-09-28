@@ -3,7 +3,7 @@ import Header  from './Header';
 import Projects from './Projects';
 import About from './About'; 
 import Blog from './Blog';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 export default class App extends React.Component {
     render() {
@@ -13,7 +13,7 @@ export default class App extends React.Component {
                     <Header /> 
                     <Switch>
                         <Route exact path="/" component={Projects} />
-                        <Route path='/about' component={About} /> 
+                        <Route exact path='/about' component={About} /> 
                         <Route path='/blog' component={Blog} />
                     </Switch>
                 </div> 

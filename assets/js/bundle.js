@@ -23871,7 +23871,7 @@ var App = function (_React$Component) {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                _reactRouterDom.BrowserRouter,
+                _reactRouterDom.HashRouter,
                 null,
                 _react2.default.createElement(
                     'div',
@@ -23881,7 +23881,7 @@ var App = function (_React$Component) {
                         _reactRouterDom.Switch,
                         null,
                         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Projects2.default }),
-                        _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _About2.default }),
+                        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/about', component: _About2.default }),
                         _react2.default.createElement(_reactRouterDom.Route, { path: '/blog', component: _Blog2.default })
                     )
                 )
@@ -27277,15 +27277,15 @@ var Projects = function (_React$Component) {
                 ),
                 _react2.default.createElement(
                     "section",
-                    { classNameName: "row writing" },
+                    { className: "row writing" },
                     _react2.default.createElement(
                         "h2",
-                        { classNameName: "section-header" },
+                        { className: "section-header" },
                         "Other Rad Things I Do"
                     ),
                     _react2.default.createElement(
                         "h3",
-                        { classNameName: "section-header" },
+                        { className: "section-header" },
                         "Writing"
                     ),
                     _react2.default.createElement(
@@ -27350,13 +27350,9 @@ var Projects = function (_React$Component) {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                'div',
+                'p',
                 null,
-                _react2.default.createElement(
-                    'p',
-                    null,
-                    'placeholder'
-                )
+                'placeholder'
             );
         }
     }]);

@@ -29,9 +29,9 @@ export default class Projects extends React.Component {
                     </ul>
                 </section>
 
-                <section classNameName="row writing">
-                    <h2 classNameName="section-header">Other Rad Things I Do</h2>
-                    <h3 classNameName="section-header">Writing</h3>
+                <section className="row writing">
+                    <h2 className="section-header">Other Rad Things I Do</h2>
+                    <h3 className="section-header">Writing</h3>
                     <ul>
                         <li>
                         <a href="https://recompilermag.com/2017/05/31/alterconf-building-a-better-tech-one-conference-at-a-time/">Building a Better Tech - One Conference at a Time</a> - RecompilerMag
