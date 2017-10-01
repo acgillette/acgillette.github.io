@@ -26,17 +26,24 @@ header h1 {
 }
 
 h2 {
-  font-family: 'VT323', monospace;
-
+  font-family: 'Inconsolata', monospace;  
+  
 }
 
 h3 {
-  font-family: 'VT323', monospace;
+  font-family: 'Inconsolata', monospace;  
+}
+
+h4 {
+  font-family: 'Inconsolata', monospace;  
+  text-align: left;  
 }
 
 
 p {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inconsolata', monospace; 
+  font-size: 14px; 
+  
 
 }
 
@@ -45,8 +52,14 @@ ul {
 }
 
 
+.nav {
+  margin-bottom: 5%;
 
+}
 
+.name {
+  transition: color 1s;  
+}
 
 #contact {
   text-align:center;
@@ -55,33 +68,6 @@ ul {
 
 .writing {
   text-align:center;
-}
-
-.projects {
-  /*text-align:center;*/
-}
-
-
-/*.projects h1 {
-  text-align:center;
-}*/
-
-.project h3 {
-  display:inline;
-  text-align:center;
-}
-
-.project {
-  border-style:solid;
-  height: 300px;
-  width: 300px;
-  border-width: 1px;
-  padding: 2%;
-  margin: 2%;
-}
-
-.project i {
-  margin-left: 1%;
 }
 
 .writing h3 {
@@ -94,10 +80,14 @@ ul {
 
 .post {
   text-decoration: none;
+  font-family: 'Inconsolata', monospace;  
+  
 }
 
 .blog-post {
   padding: 2%;
+  font-family: 'Inconsolata', monospace;  
+  
 }
 
 .blog-post h1, h2, h3, h4 {
@@ -107,4 +97,54 @@ ul {
 
 .post-title {
   text-align: center;
+  font-family: 'Inconsolata', monospace;    
+}
+
+#projects {
+  margin-left: 10%; 
+  margin-right: 10%;
+} 
+
+.intro {
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.project {
+  padding: 2%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-family: 'Inconsolata', monospace;  
+  font-size: 12px;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  font-weight: 300;
+  border-bottom: dashed;
+  border-width: 1px;
+}
+
+
+
+.intropic #portrait {
+   margin-left: 200px;
+  
+}
+
+
+.intro {
+  margin-bottom: 10%;
+  margin-left: 5%; 
+  margin-right: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+.resumelist {
+  text-align: left;
+}
+
+.resumelist li {
+  font-family: 'Inconsolata', monospace;  
+  font-size: 14px;  
 }

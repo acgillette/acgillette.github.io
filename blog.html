@@ -6,7 +6,7 @@ title: Blog
 
   {% for post in site.posts %}
     <section class="post">
-      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}"><h3>{{ post.title }}</h3></a></li>
+      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     </section>
   {% endfor %}
 </ul>
