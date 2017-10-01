@@ -58,6 +58,8 @@ ul {
 }
 
 .name {
+  font-family: 'VT323', monospace;
+  
   transition: color 1s;  
 }
 
