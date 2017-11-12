@@ -121,8 +121,6 @@ ul {
   line-height: 1.6em;
   letter-spacing: 0px;
   font-weight: 300;
-  border-bottom: dashed;
-  border-width: 1px;
 }
 
 
@@ -130,6 +128,10 @@ ul {
 .intropic #portrait {
    margin-left: 200px;
   
+}
+
+.about {
+  padding: 5%;
 }
 
 
