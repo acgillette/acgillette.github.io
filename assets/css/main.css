@@ -68,8 +68,9 @@ ul {
 }
 
 
-.writing {
+#writing {
   text-align:center;
+  margin: 10%;
 }
 
 .writing h3 {
@@ -130,6 +131,7 @@ ul {
   padding: .75em;
   position: relative;
   background-color: white;
+  margin: 10px;
 }
 
 
@@ -146,9 +148,7 @@ ul {
 
 .intro {
   margin-bottom: 10%;
-  margin-left: 5%; 
-  margin-right: 5%;
-  padding-bottom: 5%;
+  padding: 5%;
 }
 
 
@@ -161,4 +161,30 @@ ul {
 .resumelist li {
   font-family: 'Inconsolata', monospace;  
   font-size: 14px;  
+}
+
+
+.writing-project::before {
+  content: '';
+  width: 100%;
+  position: absolute;
+  top: .75em;
+  left: .75em;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(135deg,#bff3d4 0%,#bbe0f8 50%,#e1c9fe 100%);
+}
+
+.writing-project {
+  font-family: 'Inconsolata', monospace;  
+  font-size: 14px;  
+  border: 1px #5782f8 solid;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding: .75em;
+  position: relative;
+  background-color: white;
+  margin: 10px;
+
 }
