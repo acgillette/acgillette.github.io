@@ -57,6 +57,9 @@ img {
   margin: 5px;
 }
 
+.content {
+
+}
 
 .nav {
   margin-bottom: 5%;
@@ -147,14 +150,18 @@ img {
   
 }
 
+
 .about {
   padding: 5%;
 }
 
 
 .intro {
-  margin-bottom: 10%;
-  padding: 5%;
+  width: 75%;
+  margin: auto;
+  padding: .75em;
+  position: relative;
+  margin: 10px;
 }
 
 
