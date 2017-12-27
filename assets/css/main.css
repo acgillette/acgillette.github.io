@@ -57,12 +57,33 @@ img {
   margin: 5px;
 }
 
-.content {
-
-}
 
 .nav {
   margin-bottom: 5%;
+}
+
+.nav a::before {
+  content: '';
+  width: 100%;
+  position: absolute;
+  top: .75em;
+  left: .75em;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(135deg,#bff3d4 0%,#bbe0f8 50%,#e1c9fe 100%);
+  
+}
+
+.nav a {
+  font-family: 'Inconsolata', monospace;    
+  text-decoration:none;
+  margin: 3px;
+  border: 1px #5782f8 solid;
+  width: 30%;
+  text-align: center;
+  padding: .50em;
+  position: relative;
+  background-color: white;
 
 }
 
@@ -136,7 +157,6 @@ img {
   border: 1px #5782f8 solid;
   width: 30%;
   text-align: center;
-  margin: auto;
   padding: .75em;
   position: relative;
   background-color: white;
