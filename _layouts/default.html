@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     {% include blog-head.html %}
     <title>{{ page.title }}</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112232586-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112232586-1');
+    </script>
   </head>
 
   <header class="nav row">
@@ -11,7 +20,7 @@
     <a href="/">home</a>
     <a href="/blog">blog</a>
     <a href="https://github.com/acgillette" target="_blank">github</a>
-    <a href="https://www.linkedin.com/in/anacelia-gillette-aaa633113/" target="_blank">linkedin</a>
+    <a href="https://twitter.com/quartzcrusher" target="_blank">twitter</a>
   </header>
   <body>
     <main class="row">
