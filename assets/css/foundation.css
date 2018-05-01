@@ -1267,7 +1267,6 @@ dt,
 dd,
 ul,
 ol,
-li,
 h1,
 h2,
 h3,
@@ -1404,8 +1403,7 @@ li {
   font-size: inherit; }
 
 ul {
-  margin-left: 1.25rem;
-  list-style-type: disc; }
+  list-style-type: none; }
 
 ol {
   margin-left: 1.25rem; }

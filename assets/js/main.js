@@ -1,7 +1,7 @@
 var setHeaderColor = function() {
   var hue = Math.floor(Math.random() * 360);
   var pastel = 'hsl(' + hue + ', 100%, 87.5%)';
-  $(".name").css("color", pastel);
+  $(".js_color").css("background-color", pastel);
 };
 
 var setBackground = function() {
@@ -11,7 +11,7 @@ var setBackground = function() {
 };
 
 $(document).ready(function(){
-  setInterval(setHeaderColor, 1000);
+  setInterval(setHeaderColor, 5000);
 
 
   $("a").hover(function() {
