@@ -4,52 +4,27 @@ title: AC Gillette
 ---
 <main class="content row"> 
     <section class="row">
-      <section class="column small-12 gradient-box main-content">   
-        <h1 class="name">AC Gillette</h1>
-        <section class="nav">
-            <a href="https://github.com/acgillette" target="_blank"><i class="fab fa-github-alt fa-lg"></i></a>
-            <a href="https://twitter.com/quartzcrusher" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
-            <a href="https://www.linkedin.com/in/ac-gillette-aaa633113/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>      
-        </section>
+      <section class="column small-10 main-content">   
+        <h4 class="name">AC Gillette</h4>
         <section class="about-me">
-            <h3>Hi Hey Hello <i class="fas fa-handshake fa-sm"></i></h3>
-            <p>
-              I'm <a href="https://twitter.com/quartzcrusher">AC</a>. I make things, sometimes for computers, sometimes for humans. I like building interfaces, web graphics, and thinking about how to make an internet a better place for humans.
-            </p>
-            <p><i class="fas fa-code"></i> I'm currently coding at <a href="http://www.3scan.com/" target="_blank">3scan</a></p>    
+                <p>I'm AC. I make things, sometimes for computers, sometimes for humans. I like building interfaces, tinkering with web graphics, and thinking about how to make an internet a better place for people.</p>
+
+                <p><strong>currently</strong>: <a href="http://www.3scan.com/" target="_blank">3scan</a>, <a href="https://czf-con.github.io/" target="_blank">computery zine fest</a></p>
+                
+                <p><strong>previously</strong>: <a href="https://www.plutovr.com/" target="_blank">PlutoVR</a>, <a href="https://www.adadevelopersacademy.org/" target="_blank">Ada Developers Academy</a></p>
+                
+                <p>you can also find me on the world wide web: <a href="https://github.com/acgillette/" target="_blank">github</a>, <a href="https://twitter.com/quartzcrusher" target="_blank">twitter</a>, <a href="https://glitch.com/@acgillette" target="_blank">glitch</a><p>
+                
+                <p>say hello: contact@acgillette.net<p>
         </section>
-        <section class="achievements-list">
-            <h3>Here are some cool things I've done:</h3>
-            <ul id="list">
-              <li><i class="far fa-star"></i> Made <a href="http://www.raptvr.net/">Rapt</a>, a small procedurally generated WebVR experience</li>
-              <li><i class="fas fa-pencil-alt"></i> Wrote an article on the idea of programming mastery for <a href="https://shop.recompilermag.com/products/issue-9-hard-problems">Recompiler Magazine</a></li>
-              <li><i class="fas fa-pencil-alt"></i> Also covered <a href="https://recompilermag.com/2017/05/31/alterconf-building-a-better-tech-one-conference-at-a-time/">AlterConf</a> for Recompiler Magazine</li>
-              <li><i class="fas fa-graduation-cap"></i> Attended <a href="https://www.adadevelopersacademy.org/">Ada Developers Academy</a>, where I got the opportunity to intern with <a href="https://www.plutovr.com/">PlutoVR</a></li>
-            </ul>  
+        <section class="works">
+            <h4>Works</h4>
+            <p><a href="https://mars-mars-mars.glitch.me/" target="_blank">MARSMARSMARS</a> - A sigh comes soft murmur of the Mars Atmosphere</p>
+
+            <p><a href="https://planet-generator.glitch.me/" target="_blank">Planet Generator</a> - A small tranquil planet generator app</p>
         </section>
-        <section class="skills-list">
-            <h3>Here are some things I'm pretty good at:</h3>
-            <ul id="list" class="row">
-              <li class="column small-4"><i class="fas fa-code"></i> JavaScript, TypeScript, CSS/SaSS</li>
-              <li class="column small-4"><i class="fas fa-desktop"></i> UI and client side development for the web</li>
-              <li class="column small-4"><i class="fas fa-wrench"></i> Webpack, Three.js, Vue</li>
-            </ul>  
+        <section class="words">
+            <h4>Words</h4>
+            <p></p>
         </section>
-        <section class="contact-me">
-            <h3>Get in touch</h3>
-            <p id="contact">
-                <i class="fa fa-envelope fa-lg" aria-hidden="true"></i> contact@acgillette.net
-            </p>  
-        </section>
-      </section>
-      <section class="column small-12 blog-posts gradient-box">
-          <h3>Blog</h3>
-          <ul class="posts">
-              {% for post in site.posts %}
-                <section class="post column small-4">
-                  <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                </section>
-              {% endfor %}
-            </ul>            
-      </section>
 </main>

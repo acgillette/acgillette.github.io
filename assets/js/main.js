@@ -1,7 +1,7 @@
 var setHeaderColor = function() {
   var hue = Math.floor(Math.random() * 360);
   var pastel = 'hsl(' + hue + ', 100%, 87.5%)';
-  $(".js_color").css("background-color", pastel);
+  $(".js_color").css("color", pastel);
 };
 
 var setBackground = function() {

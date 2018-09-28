@@ -1,4 +1,12 @@
-
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background: -webkit-linear-gradient(to bottom, #dae2f8, #d6a4a4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #dae2f8, #d6a4a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+}
 
 h1 {
   font-size: 3.0em;
@@ -14,13 +22,20 @@ h3 {
 }
 
 h4 {
-  font-family: 'Inconsolata', monospace;  
+  font-family: 'IBM Plex Mono', monospace;
   text-align: left;  
+  border-bottom: solid 1px;
+  font-size: 20px;
+}
+
+.main-content {
+  padding: 5%;
+  margin: 5%;
 }
 
 
 p {
-  font-family: 'Montserrat', san-serif; 
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 14px; 
 }
 
@@ -29,7 +44,7 @@ ul #list {
 }
 
 li {
-  font-family: 'Montserrat', san-serif; 
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 14px; 
   padding: 10px;
 }
@@ -39,9 +54,10 @@ li {
 }
 
 .name {
-  text-align: center;
-  font-size: 5.0em;
-  font-family: 'VT323', monospace;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  margin-left: 1%;
+  border-bottom: solid 1px;
 }
 
 .about-me {
@@ -69,7 +85,6 @@ li {
 
 .nav {
   margin-bottom: 5%;
-  text-align: center;
 }
 
 
@@ -103,11 +118,6 @@ li {
   font-size: 14px; 
   
 }
-
-.blog-post h1, h2, h3, h4 {
-  text-align: center;
-}
-
 
 .post-title {
   text-align: center;
