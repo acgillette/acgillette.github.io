@@ -3,7 +3,9 @@
 :dizzy: My personal resume/portfolio site :dizzy:
 
 ## Site To Do
-* Re-format site layout 
-* Add unique projects page 
-* Integrate React into website 
+* Add goodreads API to add my currently reading 
+* Add back in blogs page redesigned
+* Shifting background gradients
+* Add commits section showing latest commits
+
 
