@@ -24,12 +24,20 @@ $(document).ready(() => {
     })
     .then((json) => {
         const books = json.query.results.GoodreadsResponse.books.book;
-        books.forEach((book, index) => {
+        if (books.length) {
+            books.forEach((book) => {
+                $("<a>", {
+                    text: book.title,
+                    href: book.link,
+                    style: "padding-right: 1%;"
+                }).appendTo(".books");
+            });    
+        } else {
             $("<a>", {
-                text: book.title,
-                href: book.link,
+                text: books.title,
+                href: books.link,
                 style: "padding-right: 1%;"
             }).appendTo(".books");
-        });
+        }
     })
 });
