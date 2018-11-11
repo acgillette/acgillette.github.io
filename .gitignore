@@ -3,4 +3,7 @@ _site
 node_modules
 /assets/bundle.js
 .sass-cache
+_drafts
+.env
+
 

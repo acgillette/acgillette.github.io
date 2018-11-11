@@ -8,13 +8,13 @@ module.exports = {
       filename: "bundle.js"
     },
     module: {
-    loaders: [
+    rules: [
       {
         test: /\.jsx?$/,
         exclude: /(node_modules)/,
         loader: "babel-loader", // "babel-loader" is also a legal name to reference
-        query: {
-          presets: ["react", "es2015"]
+        options: {
+          presets: ["es2015"]
         }
       }
       ]

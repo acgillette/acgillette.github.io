@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "start": "jekyll serve --open"
   },
   "repository": {
@@ -20,6 +21,12 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "xml2js": "^0.4.19"
+  },
+  "dependencies": {
+    "proxify-url": "^1.0.1"
   }
 }
