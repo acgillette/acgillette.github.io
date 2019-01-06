@@ -4,12 +4,12 @@ const GOODREADS_API_KEY = "UlcDZNPWmjXE6iqtr7M7VQ";
 const GOODREADS_USER_ID = "9875935";
 
 $(document).ready(() => {
-    $("a").hover(() => {
+    $("a").hover(function(event) {
         var hue = Math.floor(Math.random() * 360);
         var pastel = 'hsl(' + hue + ', 100%, 70%)';
-        $(this).css("color", pastel);
-
-    }, () => {
+        $(this).css({"color": pastel});
+        console.log(this);
+    }, function() {
         $(this).removeAttr('style');
     });
 

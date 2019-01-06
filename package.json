@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "jekyll serve --open"
+    "start": "webpack && jekyll serve --open"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "xml2js": "^0.4.19"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
     "proxify-url": "^1.0.1"
   }
 }
