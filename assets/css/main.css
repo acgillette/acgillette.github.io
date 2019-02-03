@@ -61,30 +61,6 @@ li {
   padding: 10px;
 }
 
-
-.post {
-  text-decoration: none;
-  font-family: 'Montserrat', san-serif; 
-  font-size: 14px; 
-  padding: 10px;
-}
-
-.blog-posts {
-  margin-top: 50px;
-}
-
-.blog-post {
-  padding: 2%;
-  font-family: 'Montserrat', san-serif; 
-  font-size: 14px; 
-  
-}
-
-.post-title {
-  text-align: center;
-  font-family: 'Inconsolata', monospace;    
-}
-
 .skills-list {
   padding: 20px;
   margin-top: 30px;
