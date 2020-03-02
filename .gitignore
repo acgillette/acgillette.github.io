@@ -1,9 +1,4 @@
-_site
-.jekyll-metadata
 node_modules
-/assets/bundle.js
-.sass-cache
-_drafts
+.cache
 .env
-
-
+/public
